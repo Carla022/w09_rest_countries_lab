@@ -6,7 +6,7 @@ import SearchCountry from './components/SearchCountries';
 function App() {
   return (
     <>
-      <h1>🛫 TravelBucketList 🪣</h1>
+      <h1> 🛫TravelBucketList🪣</h1>
       <SearchCountry/>
       <CountriesContainer />
 

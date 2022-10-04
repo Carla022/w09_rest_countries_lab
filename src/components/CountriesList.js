@@ -1,9 +1,9 @@
 import CountryListItem from "./CountryListItem";
 
-const CountriesList = (fetchCountries) => {
+const CountriesList = () => {
     return(
         <>
-            <h2>CountriesList here!</h2>
+            <h2>All Countries!</h2>
             <CountryListItem/>
             <CountryListItem/>
         </>

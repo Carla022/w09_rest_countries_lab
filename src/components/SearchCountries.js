@@ -9,6 +9,7 @@ const SearchCountry = () => {
 
     return(
         <div>
+            <hr/>
             <form>
                 <label htmlFor="search-field">
                     <input 
@@ -19,7 +20,7 @@ const SearchCountry = () => {
                         onChange={handleChange}
                     />
                 </label>
-        </form>
+            </form>
 
         </div>
     )

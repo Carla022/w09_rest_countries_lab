@@ -25,7 +25,6 @@ const CountriesContainer = () => {
 
     return (
         <>
-            <hr/>
             <CountriesList onClick={fetchCountries}/>
             <VisitedCountriesList/>
         </>
