@@ -11,12 +11,11 @@ const CountriesContainer = () => {
         .then((response)=> {
             return response.json();
         })
-
-        .then((response)=> setCountries(response.message)); // the path to access data = arrayOfCountries[0].name.common === "Angola"
-
+        .then((response)=> setCountries(response.message)); 
+        
         // fetch data from the RESTCountries API (done)
         // set the countries state to the result of the API call (done)
-        // pass it down to relevant components
+        // pass it down to relevant components 
     }
 
     useEffect(() => {

@@ -1,6 +1,6 @@
-const CountryListItem = (props) => {
+const CountryListItem = () => {
     return (
-        <li>{props.ourCountries}</li>
+        <li></li>
     );
 }
 
